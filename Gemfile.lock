@@ -181,6 +181,9 @@ GEM
     sqlite3 (1.4.2)
     thor (1.2.1)
     tilt (2.0.10)
+    tty-cursor (0.7.1)
+    tty-spinner (0.9.3)
+      tty-cursor (~> 0.7)
     turbolinks (5.2.1)
       turbolinks-source (~> 5.2)
     turbolinks-source (5.2.0)
@@ -214,6 +217,7 @@ DEPENDENCIES
   bootsnap (>= 1.4.4)
   byebug
   capybara (>= 3.26)
+  i18n
   jbuilder (~> 2.7)
   listen (~> 3.3)
   pry-rails
@@ -224,6 +228,7 @@ DEPENDENCIES
   selenium-webdriver (>= 4.0.0.rc1)
   spring
   sqlite3 (~> 1.4)
+  tty-spinner
   turbolinks (~> 5)
   tzinfo-data
   web-console (>= 4.1.0)
